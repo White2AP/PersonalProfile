@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whitea — Indie Game Developer</title>
+  <meta name="description" content="Whitea is an indie game developer and finance student in Marseille, building Entropy Hunter, DeepVault and other small strange worlds.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&family=Noto+Sans+SC:wght@700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="nav__logo" href="#top">Whitea</a>
+      <nav class="nav__links" aria-label="Main">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__media" aria-hidden="true">
+        <video autoplay loop muted playsinline poster="images/entropy-hunter-poster.jpg">
+          <source src="video/entropy-hunter-art-test.webm" type="video/webm">
+          <source src="video/entropy-hunter-art-test.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="hero__shade" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <p class="eyebrow">Indie game dev · Marseille</p>
+        <h1>Hi, I'm <span class="hero__name">Whitea</span><span class="cursor" aria-hidden="true"></span></h1>
+        <p class="hero__lead">I draw the characters, write the code and compose a little music for the strange small worlds I want to play.</p>
+        <div class="hero__actions">
+          <a class="btn btn--fire" href="#projects">See my work</a>
+          <a class="btn btn--ghost" href="#contact">Say hello</a>
+        </div>
+      </div>
+
+      <p class="hero__caption"><span class="pulse" aria-hidden="true"></span>Now playing: Entropy Hunter, art test</p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="eyebrow">01 — Projects</p>
+        <h2>Things I'm building</h2>
+
+        <div class="grid">
+
+          <article class="card card--split card--wide">
+            <a class="card__image" href="images/officer-character-sheet.jpg" target="_blank" rel="noopener">
+              <img src="images/officer-character-sheet.jpg" alt="Character sheet of the Entropy Hunter officer: four frames of a cozy walk cycle on the top row and four frames of a playful run cycle on the bottom row." width="1816" height="1216">
+            </a>
+            <div class="card__body">
+              <ul class="tags">
+                <li>Cute survival adventure</li>
+                <li>In development</li>
+              </ul>
+              <h3>Entropy Hunter</h3>
+              <p>A Soviet officer and a NATO officer are stranded on a remote island and have to fight alien life together. Soft shapes, a stylised low-res look, and a campfire you'll want to sit next to before the night gets loud.</p>
+              <a class="card__link" href="video/entropy-hunter-art-test-audio.mp4">Watch the art test</a>
+            </div>
+          </article>
+
+          <article class="card card--split card--reverse card--mid">
+            <a class="card__image" href="images/deepvault-screenshot.jpg" target="_blank" rel="noopener">
+              <img src="images/deepvault-screenshot.jpg" alt="In-game screenshot: a first-person view over a dug-out pit toward a research station with a container building, radar dish and fence. The hotbar shows a pickaxe, rock and cable." width="1439" height="809">
+            </a>
+            <div class="card__body">
+              <ul class="tags">
+                <li>First-person horror</li>
+                <li>PSX style</li>
+              </ul>
+              <h3>深穹 · DeepVault</h3>
+              <p>Mine underground, automate your base and hold the line with turrets while something waits in the dark. Chunky polygons, low-res textures, genuine dread.</p>
+              <a class="card__link" href="images/deepvault-screenshot.jpg" target="_blank" rel="noopener">View screenshot</a>
+            </div>
+          </article>
+
+          <article class="card card--split card--tall">
+            <a class="card__image" href="images/moshuai-concept.jpg" target="_blank" rel="noopener">
+              <img src="images/moshuai-concept.jpg" alt="Concept art: a girl in a long coat and pleated skirt holds a rifle in a dim greenhouse corridor, with a small robot dog at her side." width="1080" height="1573">
+            </a>
+            <div class="card__body">
+              <ul class="tags">
+                <li>Story-driven</li>
+                <li>Concept art</li>
+              </ul>
+              <h3>末衰物语</h3>
+              <p>After the corporate wars, a botanist and a young convict serving a heavy sentence for “crimes against humanity” go looking for rare pre-war seeds.</p>
+              <a class="card__link" href="images/moshuai-concept.jpg" target="_blank" rel="noopener">View concept art</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section--about" id="about">
+      <div class="container about">
+        <div class="about__portrait">
+          <img class="avatar" src="images/avatar-whitea.png" alt="Line-art self-portrait: a long-haired character with a leaf-like ornament, working at a laptop. Caption: Whitea GameDev." width="1080" height="1167">
+        </div>
+        <div class="about__text">
+          <p class="eyebrow">02 — About</p>
+          <h2>Finance student, game developer</h2>
+          <p>I study finance at Kedge Business School in Marseille, which is an unusual path for a game developer. Thinking in budgets, risk and incentives turns out to be useful when you're shipping a game on your own.</p>
+          <p>I model in Blender, build scenes in Godot, and keep a foot in drawing and music. Every project starts from a look I want to see on screen, then I work backwards to make it run. I also play a lot of games, because I believe the best game makers are players first.</p>
+
+          <p class="badge"><span>Player first</span>240 games · 8,000+ hours on Steam</p>
+
+          <ul class="chips" aria-label="Toolbox">
+            <li>Blender</li>
+            <li>Godot</li>
+            <li>Programming</li>
+            <li>Drawing</li>
+            <li>Music composition</li>
+            <li>Finance</li>
+          </ul>
+
+          <h3 class="about__subhead">Places I like</h3>
+          <ul class="links">
+            <li><a href="https://www.blender.org/" target="_blank" rel="noopener">Blender</a></li>
+            <li><a href="https://unity.com/" target="_blank" rel="noopener">Unity</a></li>
+            <li><a href="https://godotengine.org/" target="_blank" rel="noopener">Godot</a></li>
+            <li><a href="https://www.aseprite.org/" target="_blank" rel="noopener">Aseprite</a></li>
+            <li><a href="https://procreate.com/" target="_blank" rel="noopener">Procreate</a></li>
+            <li><a href="https://store.steampowered.com/" target="_blank" rel="noopener">Steam</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CONTACT -->
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <div>
+        <p class="eyebrow">03 — Contact</p>
+        <h2>Let's make something</h2>
+      </div>
+      <ul class="social">
+        <li><a href="https://github.com/White2AP" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+    <p class="footer__note container">© 2026 Whitea · Made with HTML and CSS at Le Wagon</p>
+  </footer>
+
+</body>
+</html>
